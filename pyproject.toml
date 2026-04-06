@@ -10,7 +10,11 @@ dependencies = [
     "pyyaml",
     "python-dotenv",
     "shapely>=2.0",
+    "apache-sedona[db]>=0.3",
 ]
 
 [project.optional-dependencies]
 sedona = ["sedona-db"]
+
+[tool.setuptools.packages.find]
+include = ["spatial_pruning_toolkit*"]

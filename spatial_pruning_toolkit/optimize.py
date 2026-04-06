@@ -48,6 +48,7 @@ def hilbert_sort(
         (FORMAT PARQUET, ROW_GROUP_SIZE {row_group_size}, PARQUET_VERSION V2);
     """)
 
+
     total_rows = con.execute(f"""
         SELECT count(*) FROM read_parquet('{output_path}')
     """).fetchone()[0]
