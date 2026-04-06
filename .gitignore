@@ -1,0 +1,6 @@
+data/raw/*
+data/processed/*
+data/staging/*
+.env
+__pycache__/
+*.pyc
