@@ -1,5 +1,5 @@
 """Hilbert-sort GeoParquet files and add Parquet 2.11 GeospatialStatistics."""
-
+from __future__ import annotations
 import duckdb
 import pyarrow as pa
 import pyarrow.parquet as pq

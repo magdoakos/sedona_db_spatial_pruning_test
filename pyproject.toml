@@ -6,7 +6,6 @@ dependencies = [
     "geopandas>=0.14",
     "pyarrow",
     "geoarrow-pyarrow>=0.2.0",
-    # Duckdb 1.5 required for new parquet writint/reading and predicate pushdown
     "duckdb>=1.5.0",
     "pyyaml",
     "python-dotenv",

@@ -2,7 +2,7 @@
 
 Requires ``sedona-db`` to be installed (optional dependency).
 """
-
+from __future__ import annotations
 import time
 import re
 import pyarrow.parquet as pq

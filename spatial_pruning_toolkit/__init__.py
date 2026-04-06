@@ -19,7 +19,7 @@ Quick start::
         SpatialPruningTest,
     )
 """
-
+from __future__ import annotations
 from spatial_pruning_toolkit.ingest import pull_overture
 from spatial_pruning_toolkit.optimize import hilbert_sort, add_geo_statistics
 from spatial_pruning_toolkit.analyze import ParquetAnalyzer

@@ -1,6 +1,6 @@
-data/raw/*
-data/processed/*
-data/staging/*
+data/
 .env
 __pycache__/
 *.pyc
+*.egg-info/
+venv/

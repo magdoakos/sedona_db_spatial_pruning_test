@@ -1,5 +1,5 @@
 """Pull data from Overture Maps via DuckDB + S3."""
-
+from __future__ import annotations
 import duckdb
 from pathlib import Path
 

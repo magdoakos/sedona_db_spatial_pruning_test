@@ -1,5 +1,5 @@
 """Export row group bounding boxes to GeoJSON for visualization."""
-
+from __future__ import annotations
 import json
 import pyarrow.parquet as pq
 from pathlib import Path

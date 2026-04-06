@@ -1,5 +1,5 @@
 """Inspect Parquet file metadata, row group statistics, and geospatial stats."""
-
+from __future__ import annotations
 import pyarrow.parquet as pq
 from pathlib import Path
 
